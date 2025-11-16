@@ -74,7 +74,7 @@ fig_3d.add_scatter3d(
     y=[sepal_width],
     z=[petal_length],
     mode="markers",
-        marker=dict(size=8,color="red"),
+    marker=dict(size=8,color="red"),
     name="New Sample"
 )
 
