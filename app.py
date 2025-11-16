@@ -11,7 +11,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="Iris Species Classifier", layout="wide")
 st.title("Iris Species Classification Dashboard")
-st.write("Interactive dashboard to explore, visualize, and classify Iris flowers.")
+st.write("Integrants: Roberto Escobar, Andrés Moreno, Laura Sanchez, Isabella Vega")
 
 df = pd.read_csv("Iris.csv")
 
@@ -74,7 +74,7 @@ fig_3d.add_scatter3d(
     y=[sepal_width],
     z=[petal_length],
     mode="markers",
-    marker=dict(size=8, color="black"),
+        marker=dict(size=8,color="red"),
     name="New Sample"
 )
 
@@ -98,3 +98,4 @@ with tab2:
 
 st.subheader("Full Dataset")
 st.dataframe(df)
+
